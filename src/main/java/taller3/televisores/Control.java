@@ -25,4 +25,32 @@ public class Control {
     public void setTV(TV televisor){
         tv = televisor;
     }
+
+    public void turnOff() {
+        tv.turnOff();
+    }
+
+    public void setCanal(int i) {
+        tv.setCanal(i);
+    }
+
+    public void turnOn() {
+        tv.turnOn();
+    }
+
+    public void canalUp() {
+        tv.canalUp();
+    }
+    
+    public void canalDown(){
+        tv.canalDown();
+    }
+
+    public void volumenUp() {
+        tv.volumenUp();
+    }
+    
+    public void volumenDown(){
+        tv.volumenDown();
+    }
 }
