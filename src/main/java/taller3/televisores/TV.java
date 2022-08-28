@@ -75,6 +75,10 @@ public class TV {
         this.canal = canal;
     }
     
+    public void setNumTV(int num){
+        numTV = num;
+    }
+    
     public void turnOn(){
         estado = true;
     }
