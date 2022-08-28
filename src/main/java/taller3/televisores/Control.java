@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package taller3.televisores;
+import taller3.televisores.TV.*;
 
 /**
  *
